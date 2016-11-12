@@ -1,0 +1,26 @@
+<% include header.ejs %>
+
+
+
+<div id="app-6">
+<p>{{ message | capitalize }}</p>
+<p>
+  {{ reversedMessage }} | {{ fullName }}
+</p>
+<input v-model="message">
+<p>
+  ----------------------------------
+</p>
+
+<ul>
+<todoi v-for="a in i" ></todoi>
+</ul>
+
+
+
+
+</div>
+
+<% include footer.ejs %>
+
+<% include javascript.ejs %>
